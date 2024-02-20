@@ -6812,10 +6812,13 @@ h1 + .tab-content {
 
 @media (min-width: 768px) {
   .nav-style-1 {
+    display: flex;
     margin-bottom: -26px;
+    flex-direction: column;
   }
   .nav-style-1 .nav-item {
     margin-bottom: 26px;
+    width: 100%;
   }
 }
 
