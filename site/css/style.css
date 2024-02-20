@@ -6819,6 +6819,7 @@ h1 + .tab-content {
   .nav-style-1 .nav-item {
     margin-bottom: 26px;
     width: 100%;
+    max-width: 100%;
   }
 }
 
