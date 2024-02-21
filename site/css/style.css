@@ -2811,7 +2811,11 @@ textarea.form-input {
 }
 
 .project-classic-2 {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  text-align: center; /* Alinear el texto al centro */
 }
 
 .project-classic-title {
@@ -2828,7 +2832,6 @@ textarea.form-input {
 .project-classic-text {
   max-width: 185px;
   color: #c4956a;
-  text-align: center;
 }
 
 * + .project-classic-text {
@@ -2844,7 +2847,6 @@ textarea.form-input {
   }
   * + .project-classic-text {
     margin-top: 30px;
-    text-align: center;
   }
 }
 
