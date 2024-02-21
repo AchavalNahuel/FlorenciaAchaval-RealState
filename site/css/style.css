@@ -3109,6 +3109,7 @@ textarea.form-input {
   padding: 20px 15px;
   color: #ffffff;
   background: #282828;
+  word-wrap: break-word;
 }
 
 .project-mary-panel {
