@@ -2828,6 +2828,7 @@ textarea.form-input {
 .project-classic-text {
   max-width: 185px;
   color: #c4956a;
+  text-align: center;
 }
 
 * + .project-classic-text {
@@ -2843,6 +2844,7 @@ textarea.form-input {
   }
   * + .project-classic-text {
     margin-top: 30px;
+    text-align: center;
   }
 }
 
